@@ -3,8 +3,8 @@ import _thread
 import getTime
 import printData
 # SSID en wachtwoord van het WiFi-netwerk
-wifi_ssid = 'Michiel de router'
-wifi_password = 'Roeswifi28'
+wifi_ssid = 'ssid'
+wifi_password = 'wachtwoord'
 
 # Verbinding maken met WiFi-netwerk
 wifi.connect_to_wifi(wifi_ssid, wifi_password)
